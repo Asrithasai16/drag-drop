@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+    
+#left,#right{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: solid;
+}
+    
+.list{
+    height: 60px;
+    background: #eee;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 5px;
+}
+    
+.list img{
+    width: 40px;
+    height: 40px;
+}
